@@ -5,8 +5,8 @@ print ('x vs y ')
 print ('')
 while z != 3 :
   import random
-  x = random.randint(0,10)
-  y = random.randint(0,10)
+  x = random.randint(0,100)
+  y = random.randint(0,100)
   
   if x > y :
     print (str(z + 1) +'. ' 'X has defeated Y')
