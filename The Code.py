@@ -2,6 +2,7 @@ import random
 x = random.randint(1,10)
 y = random.randint(1,10)
 print ('x vs y ')
+print ('x vs y ')
 print ('')
 if x > y :
   print ('X has defeated Y')
