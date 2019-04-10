@@ -4,7 +4,7 @@ yy = 0
 aa = 0
 bb = 0
 
-print ('x vs y ')
+print ('X vs Y ')
 print ('')
 while z != 3 :
   import random
@@ -29,7 +29,7 @@ elif xx == yy :
   print ('No one has won :(')
 
 print (' ')
-print ('a vs b ')
+print ('A vs B ')
 print ('')
 while z != 6 :
   import random
