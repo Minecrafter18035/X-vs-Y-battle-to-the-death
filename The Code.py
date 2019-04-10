@@ -1,4 +1,5 @@
 z = 0
+zz = 0
 xx = 0
 yy = 0
 aa = 0
@@ -31,21 +32,21 @@ elif xx == yy :
 print (' ')
 print ('A vs B ')
 print ('')
-while z != 6 :
+while zz != 3 :
   import random
   a = random.randint(0,100)
   b = random.randint(0,100)
   
   if a > b :
-    print (str(z + 1) +'. ' 'A has defeated B')
+    print (str(zz + 1) +'. ' 'A has defeated B')
     aa += 1
   elif a < b :
-    print (str(z + 1) +'. ''B has won')
+    print (str(zz + 1) +'. ''B has won')
     yy += 1
   elif a == b :
-    print (str(z + 1) +'. ''It is a tie this time')
+    print (str(zz + 1) +'. ''It is a tie this time')
 
-  z += 1
+  zz += 1
 if aa > bb :
   print ('A has won the entire championship!')
 elif aa < bb :
